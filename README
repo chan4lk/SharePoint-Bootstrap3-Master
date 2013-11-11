@@ -1,8 +1,0 @@
-SharePoint 2010 Bootstrap 3 Master
-Attempt to add Twitter Bootstrap 3 to SharePoint 2010 master page. 
-* All bootstrap styles have been prefixed with .tb so prevent issues with global styles overwritting core SharePoint styles. 
-* Nav and Search user controls replace the defaults for easier compatiability with bootstrap see control templates
-* Main content has been wrapped in a div with the tb class so any webparts / content should be able to pick up any bootstrap style
-
-Home Page Screenshot
-![homepage](https://raw.github.com/jwykeham/SharePoint-Bootstrap3-Master/master/Screenshots/Bootstrap Home Page.png)
