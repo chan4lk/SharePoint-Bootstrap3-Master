@@ -5,4 +5,4 @@ Attempt to add Twitter Bootstrap 3 to SharePoint 2010 master page.
 * Main content has been wrapped in a div with the tb class so any webparts / content should be able to pick up any bootstrap style
 
 Home Page Screenshot
-![home page](jwykeham/SharePoint-Bootstrap3-Master/master/Screenshots/Bootstrap Home Page.png)
+![homepage](https://raw.github.com/jwykeham/SharePoint-Bootstrap3-Master/master/Screenshots/Bootstrap Home Page.png)
