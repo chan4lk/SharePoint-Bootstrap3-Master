@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="53b8e415-7886-46ae-9c37-8d247ab5059e" solutionId="53b8e415-7886-46ae-9c37-8d247ab5059e" resetWebServer="false" name="TwitterBootstrapMasterPage" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="cc6cc286-b3be-4207-93b5-b8d7922930ee" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="83a5aeef-f5e7-44d4-b807-3afb0b956189" />
+    <projectItemReference itemId="869d63cf-22da-4dac-b6f4-0517d93361b7" />
+  </projectItems>
+</package>

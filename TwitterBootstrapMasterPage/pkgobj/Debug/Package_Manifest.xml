@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="53b8e415-7886-46ae-9c37-8d247ab5059e" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="TwitterBootstrapMasterPage.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\TB\fonts\glyphiconshalflings-regular.eot" />
+    <TemplateFile Location="Layouts\TB\fonts\glyphiconshalflings-regular.otf" />
+    <TemplateFile Location="Layouts\TB\fonts\glyphiconshalflings-regular.svg" />
+    <TemplateFile Location="Layouts\TB\fonts\glyphiconshalflings-regular.ttf" />
+    <TemplateFile Location="Layouts\TB\fonts\glyphiconshalflings-regular.woff" />
+    <TemplateFile Location="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.eot" />
+    <TemplateFile Location="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.svg" />
+    <TemplateFile Location="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.ttf" />
+    <TemplateFile Location="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.woff" />
+    <TemplateFile Location="Layouts\TB\css\bootstrap-overload.css" />
+    <TemplateFile Location="Layouts\TB\css\bootstrap-glyphicons.css" />
+    <TemplateFile Location="Layouts\TB\css\bootstrap.css" />
+    <TemplateFile Location="Layouts\TB\fonts\League Gothic\stylesheet.css" />
+    <TemplateFile Location="Layouts\TB\js\bootstrap.min.js" />
+    <TemplateFile Location="Layouts\TB\js\helper.js" />
+    <TemplateFile Location="Layouts\TB\js\IE\html5shiv.js" />
+    <TemplateFile Location="Layouts\TB\js\IE\respond.min.js" />
+    <TemplateFile Location="ControlTemplates\TwitterBootstrapMasterPage\SearchControl.ascx" />
+    <TemplateFile Location="ControlTemplates\TwitterBootstrapMasterPage\SiteNav.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="TwitterBootstrapMasterPage_MasterPage\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29A9A051-B0DB-4EB4-9685-27D087F554D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TwitterBootstrapMasterPage</RootNamespace>
+    <AssemblyName>TwitterBootstrapMasterPage</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BB1F664B-9266-4fd6-B973-E1E44974B511};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\TwitterBootstrapMasterPage\SearchControl.ascx.cs">
+      <DependentUpon>SearchControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\TwitterBootstrapMasterPage\SearchControl.ascx.designer.cs">
+      <DependentUpon>SearchControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\TwitterBootstrapMasterPage\SiteNav.ascx.cs">
+      <DependentUpon>SiteNav.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\TwitterBootstrapMasterPage\SiteNav.ascx.designer.cs">
+      <DependentUpon>SiteNav.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{869d63cf-22da-4dac-b6f4-0517d93361b7}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\MasterPage\MasterPage.feature">
+      <FeatureId>{cc6cc286-b3be-4207-93b5-b8d7922930ee}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{83a5aeef-f5e7-44d4-b807-3afb0b956189}</SharePointProjectItemId>
+    </None>
+    <None Include="Layouts\TB\fonts\glyphiconshalflings-regular.eot" />
+    <None Include="Layouts\TB\fonts\glyphiconshalflings-regular.otf" />
+    <None Include="Layouts\TB\fonts\glyphiconshalflings-regular.svg" />
+    <None Include="Layouts\TB\fonts\glyphiconshalflings-regular.ttf" />
+    <None Include="Layouts\TB\fonts\glyphiconshalflings-regular.woff" />
+    <None Include="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.eot" />
+    <None Include="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.svg" />
+    <None Include="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.ttf" />
+    <None Include="Layouts\TB\fonts\League Gothic\leaguegothic-regular-webfont.woff" />
+    <None Include="MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{749d72b3-b670-42cb-b776-d60f3ec2d3cc}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPages\TwitterBootstrap3.master" />
+    <None Include="Package\Package.package">
+      <PackageId>{53b8e415-7886-46ae-9c37-8d247ab5059e}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ControlTemplates\TwitterBootstrapMasterPage\SearchControl.ascx" />
+    <Content Include="ControlTemplates\TwitterBootstrapMasterPage\SiteNav.ascx" />
+    <Content Include="Features\MasterPage\MasterPage.Template.xml">
+      <DependentUpon>MasterPage.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\TB\css\bootstrap-overload.css" />
+    <Content Include="Layouts\TB\css\bootstrap-glyphicons.css" />
+    <Content Include="Layouts\TB\css\bootstrap.css" />
+    <Content Include="Layouts\TB\fonts\League Gothic\stylesheet.css" />
+    <Content Include="Layouts\TB\js\bootstrap.min.js" />
+    <Content Include="Layouts\TB\js\helper.js" />
+    <Content Include="Layouts\TB\js\IE\html5shiv.js" />
+    <Content Include="Layouts\TB\js\IE\respond.min.js" />
+    <Content Include="MasterPages\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

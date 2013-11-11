@@ -1,0 +1,229 @@
+﻿/*
+    Styles & fixes based on twitter bootstrap
+*/
+/* Overridden SharePoint Styles  */
+body #s4-ribbonrow 
+{
+    background-color: #222;
+}
+.ms-siteactionsmenuinner 
+{
+    background-color: #222;
+    border-color: #222;
+    border-top-color: #222;
+}
+.ms-siteactionsmenuhover
+{
+    background-color: #222;
+    border: 1px solid #222;
+}
+.ms-browseTab.ms-cui-tt-s > a.ms-cui-tt-a
+{
+    background-color: #222;
+}
+.ms-cui-tt-s > .ms-cui-tt-a
+{
+    border-color:#999999;
+}
+.ms-welcomeMenu.ms-SpLinkButtonActive
+{
+    background-image: none;
+    background-color: #222;
+    border: 1px solid #222;
+}
+.s4-ql ul.root > li > .menu-item, .s4-qlheader, .s4-qlheader:visited
+{
+    color:#000;
+}
+.menu-item:hover
+{
+    background-color: #f5f5f5;
+}
+#s4-leftpanel
+{
+    margin-top:5px;
+    margin-left: 15px;
+}
+.s4-search select, .s4-search input.ms-sbplain
+{
+    height: 30px;
+    line-height: 30px;
+}
+.ms-osssearch-SearchAreaTd,
+.ms-searchref-main 
+{
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #999
+}
+li.ms-searchref-selected, li.ms-searchref-filtermsg
+{
+    
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    
+}
+
+.ms-dlgContent
+{
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  outline: none;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+}
+.ms-dlgContent .ms-dlgTitle
+{
+  border-bottom: 1px solid #e5e5e5;
+  background-image: none;
+  background-color: #f5f5f5;
+}
+.ms-dlgTitleText 
+{
+    color:#222;
+}
+.ms-browseTab,
+.ms-cui-cg-db.ms-cui-cg-s .ms-cui-tt-a,
+.ms-cui-tt-s > .ms-cui-tt-a,
+.ms-cui-tt-span:hover,
+.ms-cui-tt-a:hover
+{
+    
+    border-radius: 4px 4px 0px 0px !important;
+}
+.ms-browseTab > .ms-cui-tt-a  > .ms-cui-tt-span
+{
+    color:#fff !important;
+}
+.ms-cui-tt-s .ms-cui-tt-a:hover 
+{
+    background: url()!important;
+    background-color:#000!important;
+}
+.ms-welcomeMenu
+{
+    vertical-align:middle!important;
+    font-size: 12px!important;
+}
+/* SharePoint Dropdown */
+.ms-MenuUIPopupBody 
+{
+    padding: 10px !important;
+    border: 1px solid #dddddd;
+    border-radius: 6px 6px 6px 6px;
+    margin: 10px !important;
+}
+.ms-MenuUIULItem
+{
+   /*margin:0px 5px 5px 5px !important;*/
+}
+.ms-MenuUI
+{
+    background-color: #f5f5f5;
+}
+.ms-MenuUILabel 
+{
+    color: #000 !important;
+}
+#s4-titlerow{
+    background-color: #dddddd;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.ms-cui-topBar2
+{
+    border: none !important;
+}
+/* EFA Styles */
+.navbar-brand 
+{
+    color: #777777;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "League Gothic", "Franklin Franklin Gothic Heavy", "Franklin Franklin Gothic Book", "MS PGothic";
+    text-transform: uppercase;
+    font-size:60px !important;
+    width: auto;
+    max-width: 920px!important;
+}
+.navbar
+{
+    font-size: 16px;
+}
+.contracts > .btn-group {
+    width: 100%;
+}
+.contracts > .btn-group > button {
+    width: 100%;
+    margin-bottom: 2px;
+}
+#NavSearchResults 
+{
+    width: 250px;
+    display: none;
+    background-color: #fff;
+    z-index: 1505;
+    position: absolute;
+    border: 1px solid #222;
+    border-radius: 6px;
+    height: auto;
+}
+.tb-titlerow
+{
+    margin-left:15px;
+    min-height: 20px;
+    margin-bottom: 5px;
+}
+.tb-titlerow > div > .breadcrumb
+{
+    border-radius: 0px 0px 4px 4px !important;
+    border: 1px solid #dddddd;
+    min-height: 33px;
+    margin-top:0px;
+    display:inline-block;
+    padding: 0px 12px;
+}
+
+.breadcrumb .ms-ltviewselectormenuheader .ms-viewselector a, .ms-ltviewselectormenuheader .ms-viewselectorhover a
+{
+    color: #000;
+}
+.ms-ltviewselectormenuheader .ms-viewselectorhover 
+{
+    background-color:#999999;
+}
+.tb a 
+{
+    color: #000;
+}
+.tb-search 
+{
+    margin-right: 15px;
+}
+.tb-search > div
+{
+    margin-top:0px !important;          
+}
+.tb-search > div > input 
+{
+    margin-top: 0px;
+    border-radius: 0px 0px 0px 4px !important;
+    height: 33px !important;  
+}
+.tb-search > div > span > button
+{
+    border-radius: 0px 0px 4px 0px !important;
+    height: 33px !important;   
+    font-size: 12px !important;
+ }
+ .tab-pane
+ {
+     margin-top: 10px;
+ }
+ .row-link:hover
+ {
+     cursor:pointer;
+ }

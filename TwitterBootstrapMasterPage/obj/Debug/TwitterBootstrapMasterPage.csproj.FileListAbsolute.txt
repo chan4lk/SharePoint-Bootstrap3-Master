@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2012\Projects\TwitterBootstrapMasterPage\TwitterBootstrapMasterPage\obj\Debug\TwitterBootstrapMasterPage.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\TwitterBootstrapMasterPage\TwitterBootstrapMasterPage\bin\Debug\TwitterBootstrapMasterPage.dll
+c:\users\administrator\documents\visual studio 2012\Projects\TwitterBootstrapMasterPage\TwitterBootstrapMasterPage\bin\Debug\TwitterBootstrapMasterPage.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\TwitterBootstrapMasterPage\TwitterBootstrapMasterPage\obj\Debug\TwitterBootstrapMasterPage.dll
+c:\users\administrator\documents\visual studio 2012\Projects\TwitterBootstrapMasterPage\TwitterBootstrapMasterPage\obj\Debug\TwitterBootstrapMasterPage.pdb

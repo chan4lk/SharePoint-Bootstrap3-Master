@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Twitter Bootstrap MasterPage" Description="Activates Twitter Bootstrap 3 master page" Id="20eab380-1336-4c1f-8026-82d89145d3cc" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="MasterPages\Elements.xml" />
+    <ElementFile Location="MasterPages\TwitterBootstrap3.master" />
+  </ElementManifests>
+</Feature>
